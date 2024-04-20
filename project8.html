@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>tamplate ...</title>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@10.10.1/dist/sweetalert2.all.min.js"></script>
+    <link rel='stylesheet' href='https://cdn.jsdelivr.net/npm/sweetalert2@10.10.1/dist/sweetalert2.min.css'>
+    <style>
+      .box {
+        border: 2px solid red;
+        background-color: yellowgreen;
+        color: white;
+      }
+
+      .menu {
+        list-style: none;
+        display: flex;
+        column-gap: 40px;
+        margin-left: 100px;
+        margin-top: 20px;
+        height: 30px;
+        border-radius: 50px;
+      }
+
+      .inputbox {
+        width: 300px;
+        height: 20px;
+      }
+
+      .color {
+        background-color: blue;
+        height: 30px;
+        width: 80px;
+        color: white;
+      }
+      h1,
+      h2 {
+        margin-top: 40px;
+        text-align: center;
+        color: white;
+        text-transform: capital;
+        text-shadow: 2px 2px red;
+        
+      }
+      .heading {
+        margin-top: 30px;
+      }
+      .inputbox2 {
+        width: 600px;
+        height: 30px;
+        margin-top: 100px;
+        margin-bottom: 20px;
+        margin-left: 400px;
+        text-transform: uppercase;
+      }
+      .abc {
+        margin: 0px;
+        padding: 0px;
+        margin-top: 20px;
+      }
+      .logo {
+        background-image: url("https://www.rpnation.com/gallery/falling-snow-gif-transparent-background.26847/full?d=1494099237");
+        height: 400px;
+      }
+
+      .card {
+        display: flex;
+        column-gap: 80px;
+        margin-top: 50px;
+        margin-left: 70px;
+        height: 50px;
+        width: 50px;
+      }
+      .menu li:hover {
+        background-color: #937474;
+      }
+      .menu li:hover {
+      }
+    </style>
+  </head>
+  <body>
+    <div class="box">
+      <ul class="menu">
+        <img src="king.jpg" alt="logo" />
+
+        <li>Design</li>
+        <li>Tamplate</li>
+        <li>lllustrations</li>
+        <li>Motion Graphics</li>
+        <li>Free tamplate</li>
+        <input type="search" name="" class="inputbox" placeholder="Search" />
+        <button class="color">Login</button>
+      </ul>
+    </div>
+    <div class="logo">
+      <div class="abc">
+        <br />
+        <br />
+
+        <h1>Spark Endless Ceation With premium Design Assets</h1>
+        <h2>Unlock the World Learning Royalti -Free Design Collection</h2>
+
+        <input type="Search" name="" class="inputbox2" placeholder="Search" />
+      </div>
+    </div>
+    <div class="card">
+      <img src="images (4).jpg" alt="" />
+
+      <img src="images (4).jpg" alt="" />
+
+      <img src="images (4).jpg" alt="" />
+
+      <img src="images (4).jpg" alt="" />
+
+      <img src="images (4).jpg" alt="" />
+
+      <img src="images (4).jpg" alt="" />
+
+      <img src="images (4).jpg" alt="" />
+    </div> 
+    <br><br>
+    <button class="first">click me</button>
+    <button class="second">click me 2</button>
+    <button class="third">click me 3</button>
+
+    <script>
+        document.querySelector(".first").addEventListener('click', function()
+        {
+            Swal.fire("Good job ....","you have to successfull data unpload","success");
+          true});
+          document.querySelector(".second").addEventListener('click', function()
+          {
+            Swal.fire("Our First Alert", "With some body text!");
+          });
+          document.querySelector(".third").addEventListener('click', function()
+          {
+            Swal.fire("Our First Alert", "With some body text and success icon!", "error");
+          });
+
+    </script>
+    
+  </body>
+</html>
